@@ -4,7 +4,6 @@
 [![Spring](https://img.shields.io/badge/-Spring%20Boot%202.7-6AAD3D?style=for-the-badge&logo=spring-boot&logoColor=90fd87)](https://spring.io/projects/spring-boot)
 [![Maven](https://img.shields.io/badge/-Maven-7D2675?style=for-the-badge&logo=apache&logoColor=e38873)](https://maven.apache.org/)
 [![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)](https://editor-next.swagger.io/)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 [![RestAPI](https://img.shields.io/badge/-rest%20api-007EC0?style=for-the-badge&logo=restapi&logoColor=275ecf)](https://restfulapi.net/)
 
@@ -21,16 +20,10 @@ API представлено в виде эндпоинта GET /api для n-о
 
 ## Как запустить и использовать
 
-Для локального запуска бекенд-приложения установите и откройте программу
-[Docker Desktop](https://www.docker.com/products/docker-desktop/).
-<br>Затем в командной строке cmd выполните следующие команды
-
+<br>В командной строке cmd выполните команду
    ```
 git clone git@github.com:OsipovKonstantin/min-from-excel.git
-cd ~/min-from-excel
-mvn clean package
-docker-compose up
    ```
-
-Приложение готово к использованию! Документация Swagger доступна по адресу 
-[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html).
+Далее откройте Intellij IDEA, откройте проект min-from-excel и запустите программу (класс MinFromExcelApplication)
+<br><br>Приложение готово к использованию! Документация Swagger доступна по адресу
+[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
