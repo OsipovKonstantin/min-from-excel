@@ -27,7 +27,7 @@ API представлено в виде эндпоинта GET /api для n-о
 
    ```
 git clone git@github.com:OsipovKonstantin/min-from-excel.git
-cd ~/vacation-pay-calculator
+cd ~/min-from-excel
 mvn clean package
 docker-compose up
    ```
